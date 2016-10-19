@@ -27,6 +27,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.image.image = [UIImage imageNamed:@"7"];
+    self.view.backgroundColor = [UIColor yellowColor];
 //    创建模型文件
     NSManagedObjectModel *model= [NSManagedObjectModel mergedModelFromBundles:nil];
     //创建context配置信息的工具
