@@ -110,11 +110,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b3P-sI-gTo">
+                                <frame key="frameInset" minX="193" minY="193" width="166" height="147"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <connections>
                         <outlet property="bookText" destination="l7B-8G-csB" id="dhc-HO-qUP"/>
+                        <outlet property="image" destination="b3P-sI-gTo" id="ZmI-py-oiT"/>
                         <outlet property="nameText" destination="COF-4K-sgu" id="NyG-Y2-Ne2"/>
                         <outlet property="numText" destination="Q5X-kH-ETc" id="hxO-uA-V2c"/>
                         <outlet property="priceText" destination="7Bt-Fh-Niw" id="by9-bF-620"/>
